@@ -1,2 +1,2 @@
 # SGS-Academy
-Website for SGS Academy Oune
+Website for SGS Academy Pune
