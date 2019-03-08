@@ -1,6 +1,5 @@
-<h1>Contact-Us Page</h1>
-<div class="container border border-secondary" id="gallery_container">
-  <h3 class="card-header text-center mt-3 border border-dark">Gallery</h3>
+<div class="container border border-secondary" id="contact_container">
+  <h3 class="card-header text-center mt-3 border border-dark">Contact-Us</h3>
   <div id="main_content">
     <p>
     <b>  SGS ACADEMY, </b> <br>
@@ -14,7 +13,7 @@
 </div>
 
 <style>
-  #gallery_container {
+  #contact_container {
     border-width: medium !important;
     border-radius: 5px;
   }
@@ -23,6 +22,25 @@
     font-family: helvetica;
     border: 1px;
   }
+
+  .responsive {
+    padding: 0 8px;
+    padding-bottom: 8px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
 
   #main_content {
     margin-top: 50px;

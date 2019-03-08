@@ -1,5 +1,5 @@
-<div class="container border">
-  <h3 class="card-header text-center mb-3">MATLAB</h3>
+<div class="container border border-secondary" id="matlab_container">
+  <h3 class="card-header text-center mt-3 border border-dark">MATLAB</h3>
   <div class="row mx-1 mb-1" id="matlab_content">
     <p>MATLAB is a coding platform to generate the engineering output in the form of graphical format or to execute the repeated loops in the calculations. It is tool for numerical computation and visualization. The basic data element is a matrix,
       so if you need a program that manipulates array-based data it is generally fast to write and run in MATLAB</p> <br>
@@ -36,8 +36,21 @@
 </div>
 
 <style media="screen">
+  #matlab_content_container {
+    border-width: medium !important;
+    border-radius: 5px;
+  }
+
   body {
+    font-family: helvetica;
     border: 1px;
+  }
+
+  .responsive {
+    padding: 0 8px;
+    padding-bottom: 8px;
+    float: left;
+    width: 24.99999%;
   }
 
   #matlab_content hr {

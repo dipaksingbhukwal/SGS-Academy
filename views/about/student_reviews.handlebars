@@ -1,5 +1,6 @@
-<div class="container">
-  <div class="card mb-2">
+<div class="container border border-secondary mb-2" id="student_reviews_container">
+  <h3 class="card-header text-center mt-3 border border-dark">Testimonial</h3>
+  <div class="card mb-2 mt-2">
     <div class="card-block">
       <div class="row">
         <div class="col-lg-2">
@@ -83,3 +84,57 @@
 
 </div>
 </div>
+
+<style media="screen">
+  #student_reviews_container {
+    border-width: medium !important;
+    border-radius: 5px;
+  }
+
+  body {
+    font-family: helvetica;
+    border: 1px;
+  }
+
+  .col-lg-2 {
+    border-right: 2px dotted grey;
+  }
+
+  .user_image {
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .responsive {
+    padding: 0 8px;
+    padding-bottom: 8px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+
+    #main_content {
+      margin-top: 50px;
+      /* width: 100%; */
+    }
+
+    #main_content #page_content {
+      padding: 10px;
+      margin-top: 9px;
+      border-radius: 0px 5px 5px 5px !important;
+      color: #2E2E2E;
+      line-height: 1.6em;
+      word-spacing: 4px;
+</style>
